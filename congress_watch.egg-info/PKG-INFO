@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: congress-watch
+Version: 0.1.0
+Summary: Post-midterm tracker for the incoming U.S. Congress, built on Telem monitors
+Requires-Python: >=3.10
+Requires-Dist: httpx>=0.27
+Requires-Dist: pyyaml>=6
+Requires-Dist: markdown>=3.5
+Provides-Extra: webhook
+Requires-Dist: telem-sdk; extra == "webhook"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

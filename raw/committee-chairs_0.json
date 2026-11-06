@@ -1,0 +1,140 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "adb187f4-7fd6-43a7-a707-610bb945c9df",
+  "interaction_id": "242f6dcb-b611-480b-a292-8d8fad8012cf",
+  "trajectory_id": "9e1b3cc4-dbf4-4023-9e68-9514e3bfb200",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "9dee69fe-d495-47ec-8f37-32412021fdd9",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://oversightdemocrats.house.gov/news/press-releases/incoming-oversight-chairman-robert-garcia-statement-after-democrats-secure-majority-in-the-us-house-of-representatives",
+            "title": "Incoming Oversight Chairman Robert Garcia Statement After Democrats Secure Majority in the U.S. House of Representatives | The U.S. House Committee on Oversight",
+            "rank": 1,
+            "summary": "Summary:\n- The press release states that Rep. Robert Garcia, who will become Chairman of the House Oversight Committee, announced after Democrats won the House majority in the 120th Congress.\n- Garcia signals intent to pursue investigations into the Trump family, corporate corruption, DHS/ICE abuses, and a probe related to Epstein files coverage.\n- The statement includes the phrase \u201cLawyer up.\u201d and notes his planned focus areas as chair.\n\nIf you\u2019re looking for upcoming actions, the release signals:\n- Planned investigations by the new Oversight Committee under Garcia on the Trump family, corporate corruption, DHS/ICE abuses, and Epstein-related matters.\n- No specific scheduled hearings or dates are provided in this release.",
+            "publish_date": "2026-11-03T23:18:59Z"
+          },
+          {
+            "url": "https://www.washingtontimes.com/news/2026/nov/4/adam-smith-incoming-armed-services-chief-vows-vigorous-oversight/",
+            "title": "Incoming Armed Services panel chief vows \u2018vigorous oversight\u2019 of Pentagon",
+            "rank": 2,
+            "summary": "Summary:\n- Rep. Adam Smith, incoming chair of the House Armed Services Committee, pledges \u201cvigorous oversight\u201d of the Pentagon and the Trump administration beginning January with increased public testimony and reestablishment of an Oversight and Investigations Subcommittee.\n- Key topics for potential oversight include U.S.-Israel-Iran policy, military actions in the Caribbean and Latin America, deployment of forces to U.S. cities, and investigations into waste, fraud, and abuse in defense contracts.\n- Smith criticizes politicization within the armed forces and proposes restoring the committee\u2019s role as a coequal branch with a strong oversight mandate.\n- He also signals reforms toward a more realistic national security posture and defense budgeting, aiming to curb excessive cuts or unsustainable spending.",
+            "publish_date": "2026-11-05T00:13:00Z"
+          }
+        ],
+        "latency_ms": 507,
+        "warnings": [],
+        "same_story": {
+          "https://oversightdemocrats.house.gov/news/press-releases/incoming-oversight-chairman-robert-garcia-statement-after-democrats-secure-majority-in-the-us-house-of-representatives": [
+            {
+              "url": "https://abc7.com/post/rep-robert-garcia-incoming-house-oversight-chair-outlines-4-planned-investigations-trump-administration/20016178/",
+              "title": "Rep. Robert Garcia, incoming House Oversight chair, outlines 4 planned investigations into Trump administration - ABC7 Los Angeles"
+            }
+          ],
+          "https://www.washingtontimes.com/news/2026/nov/4/adam-smith-incoming-armed-services-chief-vows-vigorous-oversight/": [
+            {
+              "url": "https://insidedefense.com/daily-news/smith-targets-trump-era-defense-deals-new-oversight-agenda",
+              "title": "Smith targets Trump-era defense deals in new oversight agenda | InsideDefense.com"
+            }
+          ]
+        }
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 507
+    },
+    {
+      "id": "73ac8922-3a36-4828-b6d1-a62ced8af43a",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 206,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 206
+    },
+    {
+      "id": "b8a803c7-f218-4c44-9c39-2f8f4848d65f",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 7,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 7
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:01:56.061136Z",
+  "completed_at": "2026-11-05T20:01:56.980658Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}

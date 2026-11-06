@@ -1,0 +1,122 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "8ac51587-6e55-4020-9630-ce3ad0c654aa",
+  "interaction_id": "6dc0bdb2-d958-4275-a154-df481e247f31",
+  "trajectory_id": "e89ca7a8-eca8-4dd6-890e-8e6a5772b373",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "183cc722-9c8f-44f4-8efe-0044fbaf6db7",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://docquery.fec.gov/csv/344/2046344.csv",
+            "title": null,
+            "rank": 1,
+            "summary": "Summary:\n- The provided document is a CSV from the Federal Election Commission feed and contains interim, cross-sourced vote tallies and status notes for various races and jurisdictions. It notes ongoing counts, timing discrepancies between sources (e.g., Wayne County clerk vs AP, Minnesota SOS vs AP), and several unsettled items (official sizes/splits, recount thresholds, and county-level tallies). There is no specific update or AP call for the 2026 Alaska U.S. Senate race in the excerpt. The highlighted items reference other states and races (e.g., county-level results, cross-source mismatches, and resolution status) but do not provide a fresh update on Alaska or an AP race call for 2026 Alaska Senate. \n\nBottom line for user query:\n- No new vote count update or AP call for the 2026 Alaska U.S. Senate race is present in this extract. The document focuses on cross-source discrepancies and ongoing counts in various jurisdictions, not Alaska\u2019s Senate results. If you want Alaska-specific updates, please share a link to the Alaska race page or specify you want the latest AP call status for Alaska U.S. Senate.",
+            "publish_date": null
+          }
+        ],
+        "latency_ms": 515,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 515
+    },
+    {
+      "id": "90086dbb-0dfd-4077-b3b6-7be840cdd134",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://www.sbsun.com/2026/11/05/election-2026-uncalled-races-alaska-mississippi/",
+            "title": "What races AP has not yet called in contests for Senate and governor",
+            "rank": 1,
+            "summary": null,
+            "publish_date": null
+          }
+        ],
+        "latency_ms": 189,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 189
+    },
+    {
+      "id": "7c453b0f-2a46-46a3-95b0-f7d2df02afbd",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 8,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 8
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:02:02.673409Z",
+  "completed_at": "2026-11-05T20:02:03.264725Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}

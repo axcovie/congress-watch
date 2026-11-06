@@ -1,0 +1,133 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "44c5bfd7-123a-48f4-b8c0-5925a7566983",
+  "interaction_id": "20bae505-1219-4e32-b330-71e170597766",
+  "trajectory_id": "50487e3e-ec34-434b-a225-cd3958045db8",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "a47044e0-74f7-4352-840f-97c08017e6df",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://news.bgov.com/bloomberg-government-news/house-gop-to-choose-between-fighter-or-steady-hand-for-leader",
+            "title": "House GOP to Choose Between Fighter or Steady Hand for Leader",
+            "rank": 1,
+            "summary": "Summary:\nThe article notes that House Republicans will choose their next leader amid a leadership shakeup after November elections. Reps. Steve Scalise (current Majority Leader) and Jim Jordan (Judiciary Chairman) both announced bids to lead the House GOP next year, while Speaker Mike Johnson opted not to run for minority leader. The decision faces a broader question for the conference: a partisan, combative style (Scalise or Jordan) versus a steadier, more mainstream elder statesman approach. President Donald Trump has spoken positively about the candidates. The piece focuses on the potential change in the House leadership team for the 118th? 119th? Congress\u2014depending on how the map looks\u2014implying a shift in leadership dynamics if Johnson leaves and the party elects a new leader. It does not cover Senate leadership dynamics.",
+            "publish_date": "2026-11-04T18:59:38Z"
+          },
+          {
+            "url": "https://punchbowl.news/article/house/house-leadership-races-kick-off/",
+            "title": "Inside the competitive House leadership races",
+            "rank": 2,
+            "summary": "Summary:\n\nThe article covers ongoing competitive races for House leadership positions, highlighting key candidacies and dynamics:\n\n- Democratic side:\n  - Rep. Sara Jacobs (D-Calif.) is campaigning for House Democratic Caucus vice chair and has emphasized fundraising, raising over $7.8 million to support Democratic House candidates and working for campaigns in 35 districts.\n  - Jacobs is competing against Rep. Lauren Underwood (D-Ill.), who officially entered the race recently.\n\n- Republican side:\n  - Rep. Erin Houchin (R-Ind.) is challenging House Republican Conference Chair Lisa McClain (R-Mich.) for the No. 3 slot, criticizing the conference\u2019s messaging and proposing a reform of the communications office.\n  - McClain has 34 endorsements, all secured before Houchin's entry.\n  - Reps. Mark Alford (R-Mo.) and Julie Fedorchak (R-N.D.) are running for conference secretary, a role Houchin is vacating to pursue the chair bid.\n  - In Texas, Rep. Pat Fallon (R-Texas) backs Rep. August Pfluger (R-Texas) for House minority whip, praising Pfluger\u2019s leadership.\n  - Current GOP Whip Tom Emmer and Rep. Brandon Gill (R-Texas) are forming an alliance, with Gill pursuing an Oversight position, and Emmer backing that bid.\n\nContext: The piece frames these races as part of broader post-election leadership jockeying within both parties, with messaging strategy and fundraising strength highlighted as pivotal factors.",
+            "publish_date": "2026-11-05T11:44:41Z"
+          },
+          {
+            "url": "https://www.kotatv.com/2026/11/05/thune-plans-lead-senate-republicans-next-congress/",
+            "title": "Sen. John Thune to Lead Senate Republican Minority in 120th Congress | KOTA",
+            "rank": 3,
+            "summary": "Summary:\n- Topic: Senate leadership in the 120th Congress (2027-2029) following midterm results.\n- Key figure: Sen. John Thune (R-SD) is expected to lead the Senate Republican caucus as minority leader in the 120th Congress after Democrats won majorities in both chambers.\n- Next steps: A closed-door election to confirm the Senate minority leader is planned for the following Tuesday; no other Republican challengers for the position have been publicly stated yet.\n- Context: Thune had indicated he would seek another term as Senate Republican leader regardless of the midterm outcome. If confirmed, his role would shift from majority to minority leader due to the Democratic majorities.",
+            "publish_date": "2026-11-05T17:05:01Z"
+          }
+        ],
+        "latency_ms": 546,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 546
+    },
+    {
+      "id": "c6dd9d05-1480-4cca-9a37-5199c08f99e5",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 229,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 229
+    },
+    {
+      "id": "21b686ed-a545-4e9a-869a-8dc67074d980",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 6,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 6
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:02:01.753822Z",
+  "completed_at": "2026-11-05T20:02:02.502147Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}

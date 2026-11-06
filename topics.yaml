@@ -1,0 +1,62 @@
+# Each topic becomes one Telem monitor. Queries are written as neutral, factual
+# "what should trigger an alert" sentences. Edit freely, then run `congress-watch setup`.
+#
+# frequency: 1h | 6h | 12h | 1d | 7d      ttl: up to 30d (re-run `setup` to renew)
+# include_domains: optional, up to 20 hostnames to restrict results to
+
+defaults:
+  frequency: 1d
+  ttl: 30d
+  search_num_results: 10
+
+topics:
+  - key: senate-alaska
+    label: "Undecided race: Alaska U.S. Senate"
+    query: "New vote count update or AP race call in the 2026 Alaska U.S. Senate race"
+    frequency: 1h
+
+  - key: senate-mississippi
+    label: "Undecided race: Mississippi U.S. Senate"
+    query: "New vote count update, mail ballot count, or AP race call in the 2026 Mississippi U.S. Senate race"
+    frequency: 1h
+
+  - key: house-uncalled
+    label: "Remaining uncalled House races"
+    query: "AP projects a winner in a previously uncalled 2026 U.S. House race"
+    frequency: 6h
+
+  - key: certification
+    label: "Certification, recounts, and legal challenges"
+    query: "State certification, recount, or court challenge in a 2026 midterm congressional race"
+    frequency: 6h
+
+  - key: leadership
+    label: "Party leadership for the 120th Congress"
+    query: "House or Senate party leadership election, candidacy, or change of leader for the 120th Congress"
+    frequency: 6h
+
+  - key: committee-chairs
+    label: "Committee chairs and oversight plans"
+    query: "Incoming committee chair announced, or a planned oversight hearing or investigation for the 120th Congress"
+    frequency: 1d
+
+  - key: cabinet
+    label: "Cabinet and administration personnel"
+    query: "A cabinet secretary or senior White House official resigns, is fired, or is nominated after the 2026 midterms"
+    frequency: 6h
+
+  - key: lame-duck
+    label: "Lame-duck session: floor action"
+    query: "Bill passed, floor vote scheduled, or government funding deadline in the 2026 lame-duck session of Congress"
+    frequency: 12h
+
+  - key: lame-duck-official
+    label: "Official congressional sources"
+    query: "New floor schedule, passed bill, or roll call vote in the U.S. House or Senate"
+    frequency: 12h
+    include_domains: ["congress.gov", "house.gov", "senate.gov", "clerk.house.gov"]
+
+  - key: health-agenda
+    label: "Health policy agenda (ACA, Medicaid, drug prices)"
+    query: "Congressional leaders announce plans or bills on Affordable Care Act subsidies, Medicaid, or prescription drug prices after the 2026 midterms"
+    frequency: 1d

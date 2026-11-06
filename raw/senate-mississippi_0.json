@@ -1,0 +1,133 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "c27db447-f21f-4ead-922f-412fc368cc2a",
+  "interaction_id": "5d67d81a-c8c2-4a09-abb1-8dc593e36c2d",
+  "trajectory_id": "697a8b54-ba23-4a80-bf48-e82059db5e9f",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "00ade955-c861-4ba2-99fb-06d59bd50430",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://www.wapt.com/article/secretary-of-state-says-thousands-of-absentee-by-mail-ballots-still-need-to-be-counted/74337721",
+            "title": "Secretary of state says thousands of absentee-by-mail ballots still need to be counted - WAPT",
+            "rank": 1,
+            "summary": "Summary: \nMississippi Secretary of State Michael Watson said shortly after Election Day that thousands of absentee-by-mail ballots remain to be counted, with about 3,600 such ballots outstanding and due within five business days. An unknown number of affidavit ballots will be processed within the 10-day window. At the time, the U.S. Senate race between Scott Colom and Cindy Hyde-Smith was very close (fewer than 100 votes apart) but no new AP call is reported in the update. Counties have until Nov. 13 to submit certified results to the SOS. If you had issues at the polls, help is available at 888-300-4350 or 800-829-6786.",
+            "publish_date": "2026-11-04T21:59:00Z"
+          },
+          {
+            "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?entryId=137886584&id=137782085",
+            "title": "Election 2026 live results: Democrat Colom leads Republican Hyde-Smith by about 1,000 votes in Mississippi Senate Race - ABC News",
+            "rank": 2,
+            "summary": "Summary:\n- In Mississippi\u2019s 2026 U.S. Senate race, Democrat S. Colom leads Republican C. Hyde-Smith by about 1,000 votes with about 96% of expected votes reporting. Final tallies shown: Colom ~466,226 (49.0%), Hyde-Smith ~464,502 (48.9%).\n- The race remains extremely close as ballot counting continues in Jackson, MS, with no final call yet.\n- No new information on mail-in ballot counts or AP race calls beyond the near-even update above.",
+            "publish_date": "2026-11-05T18:47:28Z"
+          },
+          {
+            "url": "https://www.hindustantimes.com/ht-explainers/us-senate-races-alaska-mississippi-results-counting-delay-101793856075563.html",
+            "title": "Why US Senate races in Alaska and Mississippi haven\u2019t been called yet, and how long it could take | HT Explainers",
+            "rank": 3,
+            "summary": "Summary: As of early November 2026, AP had not yet called the Mississippi U.S. Senate race two days after the midterms. Key factors delaying a call include:\n- Provisional and mail-in ballots still needing verification and counting; about 3,600 outstanding absentee-by-mail ballots and an unknown number of affidavit ballots to be processed.\n- Counties must certify results within deadlines; counties have until November 13 to submit certified results, with statewide certification by November 13\u201315 (subject to state timeline).\n- Mississippi does not require a majority for a regular federal race; the leading candidate may win with the most votes once all ballots are counted and affidavits processed.\n- The current AP update (as of November 5) had Democrat Scott Colom leading the Republican incumbent Cindy Hyde-Smith by about 1,138 votes (roughly 49% to 48.9%) but no final call yet due to outstanding ballots and verification steps.\n\nNote: The information reflects the described situation in the source article and may have changed since. For the latest update, check AP and Mississippi secretary of state communications.",
+            "publish_date": "2026-11-05T05:29:39Z"
+          }
+        ],
+        "latency_ms": 517,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 517
+    },
+    {
+      "id": "0310cd34-d7bb-4166-86dd-80e9c9e82547",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 215,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 215
+    },
+    {
+      "id": "cf3d3f7b-c738-4320-a00e-2280d6e14b5e",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 12,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 12
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:02:03.408250Z",
+  "completed_at": "2026-11-05T20:02:04.052147Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}

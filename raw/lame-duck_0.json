@@ -1,0 +1,111 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "85a30ea2-896d-44aa-84a8-ab37cc0b2f95",
+  "interaction_id": "8906dee1-0ef3-47d8-8ff4-4fafa7a51b9b",
+  "trajectory_id": "890a87cd-d64a-4f32-88af-6e937f9620a6",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "cbc6b85e-a65e-46f2-bc52-f376bd4f68d2",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 514,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 514
+    },
+    {
+      "id": "2774eee8-4fc8-494a-8b82-75bcf6379785",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 206,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 206
+    },
+    {
+      "id": "239fc45b-2958-484e-b280-d43fb7baf776",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 7,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 7
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:02:00.209661Z",
+  "completed_at": "2026-11-05T20:02:00.745536Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}

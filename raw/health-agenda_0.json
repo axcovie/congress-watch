@@ -1,0 +1,119 @@
+{
+  "instance_id": "use1-dev",
+  "session_id": "d371aef3-4c07-43a4-a7cc-0fe4e3f9aade",
+  "interaction_id": "3fe3b144-8a72-41cf-9cb8-c58d69f1a906",
+  "trajectory_id": "a2ab7e94-d057-40ed-bb4b-7e5293edfac9",
+  "parent_trajectory_id": null,
+  "trajectory_goal": null,
+  "status": "succeeded",
+  "preprocessor_runs": [
+    {
+      "id": "dd557354-0e8f-422e-98ad-2fbc22e2d72d",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [
+          {
+            "url": "https://www.washingtonpost.com/health/2026/11/04/democrats-aim-restore-aca-subsidies-medicaid-funding-next-year/",
+            "title": "Democrats aim to restore ACA subsidies and Medicaid funding next year - The Washington Post",
+            "rank": 1,
+            "summary": "Democrats plan rapid action to restore ACA subsidies and Medicaid funding after the 2026 midterms. Key points:\n- Incoming Democratic leadership intends to quickly revive federal ACA subsidies that Republicans had rolled back, and restore funding for Medicaid.\n- These moves are part of early next-year priorities as Congress convenes.\n- Details about specific bills or legislative language were not disclosed in the report, but the aim is to reverse the GOP changes and bolster affordability under the ACA.",
+            "publish_date": "2026-11-04T18:10:38Z"
+          }
+        ],
+        "latency_ms": 495,
+        "warnings": []
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 495
+    },
+    {
+      "id": "fa7d2516-d947-4906-82bb-a969fe0e2389",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 366,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 366
+    },
+    {
+      "id": "8313d1b0-8b9b-4dd9-9f35-3dff894bd264",
+      "preprocessor_name": "monitor",
+      "status": "succeeded",
+      "batch_index": 0,
+      "query": "",
+      "request_payload": {},
+      "output_payload": {
+        "schema_version": 2,
+        "tier": null,
+        "fields": [
+          "publish_date",
+          "rank",
+          "summary",
+          "title",
+          "url"
+        ],
+        "results": [],
+        "latency_ms": 10,
+        "warnings": [
+          {
+            "code": "first_run_pending",
+            "message": "the first run has not finished yet"
+          }
+        ]
+      },
+      "raw_payload": null,
+      "error": null,
+      "latency_ms": 10
+    }
+  ],
+  "postprocessor_runs": [],
+  "created_at": "2026-11-05T20:01:57.169401Z",
+  "completed_at": "2026-11-05T20:01:57.747218Z",
+  "normalized_schema_version": null,
+  "missing_snapshots": [],
+  "client_advisory": {
+    "recommended": {
+      "opencode": "0.2.13",
+      "openclaw": "0.2.15",
+      "pi": "0.2.12",
+      "sdk": "0.4.0"
+    }
+  },
+  "routing": null,
+  "pinned_providers": null
+}
